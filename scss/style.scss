@@ -331,11 +331,20 @@
         font-size: 40px;
         font-weight: 500;
         line-height: 1.5;
+
+        @include mq(sp){
+            margin-bottom: 32px;
+            font-size: 24px;
+        }
     }
 
     &__text {
         font-size: 20px;
         line-height: 2;
+
+        @include mq(sp){
+            font-size: 14px;
+        }
     }
 }
 
